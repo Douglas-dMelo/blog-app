@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "next-app-router-seo",
+    "title": "Como estruturar SEO dinamico no App Router",
+    "description": "Aprenda a gerar title e description dinamicamente com generateMetadata.",
+    "author": "Douglas Silva",
+    "publishedAt": "2026-04-10",
+    "content": [
+      "O App Router permite criar metadados por rota de forma declarativa com generateMetadata.",
+      "Com isso, cada artigo pode ter title e description unicos, melhorando indexacao e compartilhamento.",
+      "Quando combinamos generateStaticParams com rotas dinamicas por slug, temos paginas estaticas com bom desempenho e SEO consistente."
+    ]
+  },
+  {
+    "slug": "server-components-data-fetching",
+    "title": "Data Fetching com Server Components",
+    "description": "Use funcoes async diretamente nas paginas para buscar dados sem cliente extra.",
+    "author": "Ana Costa",
+    "publishedAt": "2026-04-13",
+    "content": [
+      "No App Router, paginas sao Server Components por padrao. Isso simplifica a busca de dados no servidor.",
+      "Voce pode ler JSON local, consultar APIs e renderizar o HTML pronto para o usuario.",
+      "Esse modelo reduz JavaScript no cliente e melhora performance em cenarios de conteudo."
+    ]
+  },
+  {
+    "slug": "ssg-com-generate-static-params",
+    "title": "SSG com generateStaticParams na pratica",
+    "description": "Veja quando usar force-static e como pre-renderizar paginas por slug.",
+    "author": "Bruno Almeida",
+    "publishedAt": "2026-04-15",
+    "content": [
+      "A funcao generateStaticParams informa ao Next.js quais slugs devem ser pre-renderizados no build.",
+      "Ao combinar com dynamic igual a force-static, garantimos uma estrategia de SSG para o blog.",
+      "Se o projeto exigir atualizacao em tempo real, voce pode migrar para force-dynamic ou revalidate conforme necessidade."
+    ]
+  }
+]
