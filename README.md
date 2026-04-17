@@ -9,7 +9,7 @@ Aplicacao de blog com **Next.js App Router**, usando rotas dinamicas por `slug`,
 
 ## Demo
 
-- URL de producao: `https://seu-projeto.vercel.app`
+- URL de producao: `https://blog-app-eight-rho-20.vercel.app`
 - URL local: `http://localhost:3000`
 
 ## Funcionalidades
